@@ -1,0 +1,121 @@
+.left-container-card{
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    background-color: #ced0d8;
+    width: 25%;
+    height: 100%;
+}
+.right-container-card{
+    position: absolute;
+    top: 0;
+    left: 25%;
+    right: 0%;
+    background-color: #f0f1f7;  
+    text-align: center;
+    width: 75%; 
+    height: 80%;
+   
+}
+.right-container-card h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #525255;
+    font-size: 2.75rem;
+    text-align: left;
+    margin-left: 2.75rem;
+    
+}
+.bottom-container-card{
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    right: 0%;
+    background-color: #ffffff;  
+    width: 75%; 
+    height: 20%;
+}
+.card-flexbox{
+    display: flex;
+    margin-left: 2.75rem;
+    
+}
+.item-row{
+    width: 50rem;
+    text-align: left;
+    font-family: 'Merriweather',serif;
+    flex-shrink: 1;
+}
+.item{
+    display: inline-block;
+    margin-left: 3.5rem;
+    width: max-content;
+    text-align: left;
+}
+label{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #656569;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+input{
+    font-family: 'Merriweather',serif;
+    border: none;
+    color: rgb(32, 29, 29);
+    font-size: 25px;
+    margin-bottom: 2rem;
+    border-bottom: solid #c4c4ca 0.005rem;
+}
+.largeinput{        
+    width: 35rem;
+}
+.smallinput{
+    width: 8rem;
+}
+::-webkit-input-placeholder { 
+    color: #aa9e9e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+.card-btn{
+    border: solid  #ced0d8 1px;
+    border-radius: 10%;
+    width: 100px;
+    height: 40px;
+    color: #7e7f85;
+    position: relative;
+    background-color: white;
+    top: 1.5rem;
+    left: 1rem;
+}
+.card-btn:hover{
+    border: solid  #ced0d8 1px;
+    border-radius: 10%;
+    width: 100px;
+    height: 40px;
+    color:#ffffff;
+    background-color:  #313235;
+    position: relative;
+    top: 1.5rem;
+    left: 1rem;        
+}
+.card-btn-right{
+    border: solid  #ced0d8 1px;
+    border-radius: 10%;
+    width: 100px;
+    height: 40px;
+    color:#ffffff;
+    background-color:  #313235;
+    position: relative;
+    top: 1.5rem;
+    left: 50rem; 
+          
+}
+.card-btn-right:hover{
+    border: solid  #ced0d8 1px;
+    border-radius: 10%;
+    width: 100px;
+    height: 40px;
+    color: #7e7f85;
+   background-color: #ffffff;   
+}
